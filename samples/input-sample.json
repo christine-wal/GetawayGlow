@@ -1,0 +1,58 @@
+{
+  "organizer": {
+    "trip_name": "Napa Weekend",
+    "dates": "May 16–19",
+    "destination_mode": "specific",
+    "theme_or_location_notes": "Napa / Sonoma wine weekend. Prefer not to drive at night.",
+    "budget_framing": "mixed",
+    "transportation_assumptions": ["rideshare", "rental_car"],
+    "organizer_notes": "Would love at least one fancy dinner. No clubs."
+  },
+  "participants_total_invited": 6,
+  "participants_responses": [
+    {
+      "spend_attitude": "spend_if_value_clear",
+      "lodging_price_bucket": "300_600",
+      "energy_level": "mixed",
+      "planning_density": "structured",
+      "safety_sensitivity": "central_familiar",
+      "language_comfort": null,
+      "accommodation_pref": "hotel",
+      "accommodation_other_text": null,
+      "activity_rank_top3": ["food_dining", "culture_sightseeing", "relaxation_wellness"],
+      "activity_other_text": null,
+      "dietary_flags": ["none"],
+      "allergies_text": null,
+      "dietary_other_text": null,
+      "food_importance": "high",
+      "style_vibe": "elevated",
+      "style_other_text": null,
+      "pace_notes": "One big activity per day is perfect.",
+      "accommodation_notes": "Prefer separate beds.",
+      "dealbreakers": "No late-night bar hopping.",
+      "catch_all": null
+    },
+    {
+      "spend_attitude": "keep_costs_low",
+      "lodging_price_bucket": "lt_150",
+      "energy_level": "chill",
+      "planning_density": "loose",
+      "safety_sensitivity": "balanced",
+      "language_comfort": null,
+      "accommodation_pref": "rental",
+      "accommodation_other_text": null,
+      "activity_rank_top3": ["relaxation_wellness", "food_dining", "shopping"],
+      "activity_other_text": null,
+      "dietary_flags": ["gluten_free", "allergies"],
+      "allergies_text": "Shellfish allergy",
+      "dietary_other_text": null,
+      "food_importance": "medium",
+      "style_vibe": "casual",
+      "style_other_text": null,
+      "pace_notes": null,
+      "accommodation_notes": null,
+      "dealbreakers": "I don't want to split every bill evenly if we do different activities.",
+      "catch_all": "I get anxious if everything is scheduled minute-by-minute."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "group_snapshot": {
+    "alignment": [
+      { "text": "Strong shared interest in food and dining experiences." },
+      { "text": "Most participants prefer a relaxed or mixed pace." },
+      { "text": "The group values staying in central, well-connected areas." }
+    ],
+    "tensions": [
+      { "text": "Budget comfort varies across the group." },
+      { "text": "Preferences differ on how structured the itinerary should be." },
+      { "text": "Lodging preferences are split between hotels and rentals." }
+    ],
+    "counts_summary": [
+      {
+        "dimension": "Budget posture",
+        "summary": "1 of 2 prefers keeping costs low; 1 of 2 is comfortable spending more if value is clear."
+      },
+      {
+        "dimension": "Energy level",
+        "summary": "1 of 2 prefers a chill pace; 1 of 2 prefers a mixed pace. No one wants a packed itinerary."
+      },
+      {
+        "dimension": "Planning density",
+        "summary": "1 of 2 prefers a structured plan; 1 of 2 prefers a looser structure."
+      },
+      {
+        "dimension": "Food importance",
+        "summary": "Food is a priority for the group: 1 of 2 rated it high, 1 of 2 rated it medium."
+      },
+      {
+        "dimension": "Top activities",
+        "summary": "Food & dining leads with 5 points, followed by relaxation/wellness with 4 points."
+      }
+    ]
+  },
+  "constraints_acknowledged": {
+    "hard_constraints": [
+      { "text": "Shellfish allergy must be accommodated.", "category": "food" },
+      { "text": "Avoid late-night bar hopping.", "category": "nightlife" },
+      { "text": "Prefer not to drive at night.", "category": "transportation" },
+      { "text": "No clubs.", "category": "nightlife" }
+    ],
+    "sensitive_items": [
+      { "text": "Concern about splitting costs evenly when activities differ.", "category": "money_dynamics" },
+      { "text": "Anxiety about minute-by-minute scheduling.", "category": "planning_style" }
+    ]
+  },
+  "trip_paths": [
+    {
+      "path_id": "path_a",
+      "name": "Relaxed Wine Weekend",
+      "vibe_summary": "A slower-paced, food-forward trip with plenty of downtime and flexibility.",
+      "profile": {
+        "budget_posture": "balanced",
+        "energy_level": "chill",
+        "planning_density": "loose",
+        "safety_posture": "central_familiar",
+        "language_posture": "not_applicable",
+        "lodging_approach": "rental",
+        "mobility_assumption": ["rideshare"]
+      },
+      "activity_focus": ["food_dining", "relaxation_wellness"],
+      "who_it_fits": "Best for those who want to unwind, enjoy meals together, and avoid a packed schedule.",
+      "tradeoffs": [
+        "Fewer scheduled activities may feel under-planned to some.",
+        "Less nightlife or late evenings.",
+        "Rental lodging means shared spaces."
+      ],
+      "watchouts": [
+        "Advance reservations needed for popular wineries.",
+        "Consider separate activities for those who want more structure."
+      ],
+      "confidence_level": "high"
+    },
+    {
+      "path_id": "path_b",
+      "name": "Curated Highlights Getaway",
+      "vibe_summary": "A balanced itinerary with one anchor experience per day, leaving room for spontaneity.",
+      "profile": {
+        "budget_posture": "balanced",
+        "energy_level": "mixed",
+        "planning_density": "structured",
+        "safety_posture": "central_familiar",
+        "language_posture": "not_applicable",
+        "lodging_approach": "hotel",
+        "mobility_assumption": ["rideshare", "rental_car"]
+      },
+      "activity_focus": ["food_dining", "culture_sightseeing"],
+      "who_it_fits": "Works well for groups who want clarity and highlights without feeling over-scheduled.",
+      "tradeoffs": [
+        "Less spontaneous flexibility than Path A.",
+        "Some higher-cost experiences (fancy dinner, curated tours).",
+        "Hotel lodging is more expensive than rental."
+      ],
+      "watchouts": [
+        "Daily pacing needs to be realistic to avoid fatigue.",
+        "Build in buffer time between activities."
+      ],
+      "confidence_level": "medium"
+    }
+  ],
+  "recommended_path_id": "path_a",
+  "notes_for_ui": [
+    "Only 2 of 6 participants have responded; consider prompting remaining participants before finalizing.",
+    "Show this summary to the organizer first; allow sharing after a path is selected.",
+    "The wide budget gap suggests discussing cost expectations before booking."
+  ]
+}

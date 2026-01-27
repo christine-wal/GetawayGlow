@@ -1,0 +1,236 @@
+{
+  "group_snapshot": {
+    "alignment": [
+      { "text": "Everyone ranked food & dining in their top 2 priorities — this group wants to eat well." },
+      { "text": "4 of 5 prefer a relaxed or mixed pace. No one wants back-to-back activities." },
+      { "text": "The group agrees on staying somewhere central and walkable." }
+    ],
+    "tensions": [
+      { "text": "Budget comfort varies: 2 people want to keep costs low, 2 are happy to spend for comfort." },
+      { "text": "Split on lodging: 3 prefer a rental for group hangs, 2 want hotel privacy." },
+      { "text": "Planning style differs: some want a loose framework, one person prefers knowing the schedule upfront." }
+    ],
+    "counts_summary": [
+      { "dimension": "Budget posture", "summary": "2 of 5 are cost-conscious, 2 spend for value, 1 prioritizes comfort" },
+      { "dimension": "Energy level", "summary": "2 of 5 want chill, 3 want mixed. No one wants packed." },
+      { "dimension": "Top activities", "summary": "Food & dining (13 pts), Relaxation (9 pts), Culture (5 pts)" },
+      { "dimension": "Lodging", "summary": "3 of 5 prefer rental, 2 prefer hotel" }
+    ]
+  },
+  "constraints_acknowledged": {
+    "hard_constraints": [
+      { "text": "Shellfish allergy — restaurants need to accommodate", "category": "food" },
+      { "text": "No late-night bar hopping or clubs", "category": "nightlife" },
+      { "text": "Prefer not to drive after wine tasting", "category": "transportation" }
+    ],
+    "sensitive_items": [
+      { "text": "Someone mentioned anxiety about being over-scheduled", "category": "planning_style" },
+      { "text": "Concern about splitting costs evenly when people do different activities", "category": "money_dynamics" }
+    ]
+  },
+  "trip_paths": [
+    {
+      "path_id": "path_a",
+      "name": "Slow-Paced Wine & Dine",
+      "vibe_summary": "Long mornings at the rental, one winery or activity per day max, group dinners by 7pm, everyone in bed by 11.",
+      "who_it_fits": "Best for the 2 of you who want to truly unplug. You'll have built-in porch time every afternoon.",
+      "profile": {
+        "budget_posture": "balanced",
+        "energy_level": "chill",
+        "planning_density": "loose",
+        "lodging_approach": "rental"
+      },
+      "lodging_guidance": {
+        "recommendation": "Book a 3-bedroom rental in Yountville or St. Helena — both are walkable to tasting rooms and restaurants",
+        "why_this_works": "Central location means less driving. Shared kitchen lets you do casual breakfasts together. Outdoor space for morning coffee and evening wine.",
+        "what_to_look_for": [
+          "Outdoor patio or deck (essential for this vibe)",
+          "Full kitchen — you'll want to make breakfast",
+          "At least 2 full bathrooms for 5 people",
+          "Walking distance to at least one restaurant"
+        ],
+        "avoid": [
+          "Properties that require a car for everything",
+          "Places with shared walls or strict quiet hours"
+        ],
+        "price_range": "$400-600/night total (~$80-120/person/night)"
+      },
+      "suggested_experiences": [
+        {
+          "name": "Morning walk through Yountville + pastries at Bouchon Bakery",
+          "why": "Low-key start that doesn't require reservations or scheduling",
+          "timing": "Any morning, whenever you wake up",
+          "budget_note": "$15-20 per person"
+        },
+        {
+          "name": "Seated tasting at a boutique vineyard (Tres Sabores or Frog's Leap)",
+          "why": "Smaller wineries, less crowded, can accommodate shellfish allergy with notice",
+          "timing": "Day 2, late morning (11am appointment)",
+          "budget_note": "$50-75 per person including tasting fee"
+        },
+        {
+          "name": "Spa afternoon at Calistoga (mud baths or massage)",
+          "why": "Hits the relaxation priority, and gives the group a shared experience",
+          "timing": "Day 2 or 3 afternoon, book 2pm slots",
+          "budget_note": "$150-200 per person for a 60-min treatment"
+        },
+        {
+          "name": "Farm-to-table dinner at Farmstead or Bottega",
+          "why": "Both have excellent shellfish-free options and fit the food-focused vibe",
+          "timing": "Day 2, book for 7pm",
+          "budget_note": "$80-120 per person with wine"
+        }
+      ],
+      "sample_day": {
+        "label": "What Day 2 Actually Looks Like",
+        "morning": "Wake up naturally (no alarms). Make coffee, eat yogurt and pastries on the patio. Chat until 10am.",
+        "midday": "Drive 15 min to your 11am winery appointment. Seated tasting for 90 minutes. Back by 1pm.",
+        "afternoon": "Free time. Some people nap, some read by the pool, someone walks into town for shopping.",
+        "evening": "Everyone regroups at 6pm. Get ready together. Walk to dinner at 7pm. Home by 10pm for nightcap on the porch."
+      },
+      "booking_priorities": [
+        {
+          "item": "The rental property",
+          "why_book_early": "Good 3-bedrooms in Yountville book up 4-6 weeks out for weekends",
+          "when_to_book": "This week, once you confirm dates"
+        },
+        {
+          "item": "Saturday dinner reservation",
+          "why_book_early": "Farmstead and Bottega fill up 2-3 weeks ahead for Saturday nights",
+          "when_to_book": "As soon as you have the rental confirmed"
+        },
+        {
+          "item": "Spa appointments (if doing)",
+          "why_book_early": "Weekend spa slots go fast, especially for groups",
+          "when_to_book": "2 weeks before the trip"
+        }
+      ],
+      "budget_estimate": [
+        { "category": "Lodging (3 nights)", "per_person_range": "$240-360", "notes": "5-way split on rental" },
+        { "category": "Food & drinks", "per_person_range": "$250-400", "notes": "2 nice dinners, casual lunches, wine at tastings" },
+        { "category": "Wine tastings", "per_person_range": "$100-150", "notes": "2-3 tastings over the weekend" },
+        { "category": "Spa (optional)", "per_person_range": "$150-200", "notes": "Skip if budget-conscious" },
+        { "category": "Transportation", "per_person_range": "$40-80", "notes": "Rideshares for winery visits" }
+      ],
+      "tradeoffs": [
+        "Less variety — you'll do fewer activities than other paths",
+        "Rental means shared bathrooms and less privacy",
+        "The person who wants more structure might feel antsy by Day 2"
+      ],
+      "who_might_feel_meh": "The one person who wanted a structured plan might feel like 'we're not doing anything' — build in one anchor activity per day to give them something to look forward to.",
+      "watchouts": [
+        "Book wineries that don't require driving between — or use rideshare",
+        "Confirm shellfish allergy accommodations when making dinner reservations",
+        "Bring card games or a speaker — you'll have a lot of porch time"
+      ],
+      "confidence_level": "high"
+    },
+    {
+      "path_id": "path_b",
+      "name": "Curated Highlights Weekend",
+      "vibe_summary": "One planned experience each morning, free afternoons, elevated group dinners. Feels purposeful but not rushed.",
+      "who_it_fits": "Good middle ground: enough structure for the planner, enough downtime for the chill crew.",
+      "profile": {
+        "budget_posture": "balanced",
+        "energy_level": "mixed",
+        "planning_density": "structured",
+        "lodging_approach": "hotel"
+      },
+      "lodging_guidance": {
+        "recommendation": "Book rooms at a boutique hotel like Bardessono or Hotel Yountville — walkable to restaurants, no cooking required",
+        "why_this_works": "Everyone gets their own space at night. Hotel handles breakfast. Pool access for afternoon downtime.",
+        "what_to_look_for": [
+          "Book rooms on the same floor or adjoining if possible",
+          "On-site or walkable breakfast option",
+          "Pool or outdoor lounge area",
+          "Concierge that can help with winery bookings"
+        ],
+        "avoid": [
+          "Chain hotels outside of town — you'll lose the walkability",
+          "Properties without common spaces for group hangs"
+        ],
+        "price_range": "$350-500/night per room (~$175-250/person if sharing)"
+      },
+      "suggested_experiences": [
+        {
+          "name": "Group cooking class at CIA at Copia",
+          "why": "Hands-on, food-focused, and gives the structured planners a clear anchor activity",
+          "timing": "Day 1, 10am-1pm (arrive day before or early morning)",
+          "budget_note": "$150-200 per person, includes lunch"
+        },
+        {
+          "name": "Private tour at Stag's Leap or Opus One",
+          "why": "Elevated experience that feels special — worth the splurge for a group trip",
+          "timing": "Day 2, 11am (book the group tour option)",
+          "budget_note": "$100-150 per person"
+        },
+        {
+          "name": "Sunset hot air balloon ride (optional splurge)",
+          "why": "Once-in-a-lifetime experience, but only if budget allows",
+          "timing": "Day 2 or 3, early evening",
+          "budget_note": "$250-300 per person"
+        },
+        {
+          "name": "Fancy dinner at The French Laundry or Auberge",
+          "why": "If this is a special occasion, this is the meal you'll remember",
+          "timing": "Day 2 evening, book for 6pm",
+          "budget_note": "$350-400 per person with wine (splurge option)"
+        }
+      ],
+      "sample_day": {
+        "label": "What Day 2 Actually Looks Like",
+        "morning": "Breakfast at the hotel (included). Meet in lobby at 10:15am for the 11am winery tour.",
+        "midday": "Private tour and tasting finishes around 1pm. Grab lunch in town (casual, $25-35/person).",
+        "afternoon": "Free until 5pm. Some people pool, some explore shops, one person takes a nap.",
+        "evening": "Meet at 5:30pm to get ready. Dinner reservation at 6:30pm. Drinks after at the hotel bar."
+      },
+      "booking_priorities": [
+        {
+          "item": "Hotel rooms",
+          "why_book_early": "Boutique hotels in Yountville have limited inventory — book 6+ weeks out",
+          "when_to_book": "This week"
+        },
+        {
+          "item": "Cooking class or main activity",
+          "why_book_early": "CIA classes fill up, especially weekends",
+          "when_to_book": "As soon as hotel is confirmed"
+        },
+        {
+          "item": "Fancy dinner reservation",
+          "why_book_early": "French Laundry books 2 months out. Auberge books 3-4 weeks out.",
+          "when_to_book": "Immediately for French Laundry; 3 weeks out for others"
+        }
+      ],
+      "budget_estimate": [
+        { "category": "Lodging (3 nights)", "per_person_range": "$525-750", "notes": "2 per room at a boutique hotel" },
+        { "category": "Food & drinks", "per_person_range": "$400-600", "notes": "Includes one splurge dinner" },
+        { "category": "Activities", "per_person_range": "$250-400", "notes": "Cooking class + winery tour" },
+        { "category": "Transportation", "per_person_range": "$60-100", "notes": "Hotel may offer shuttle; otherwise rideshare" }
+      ],
+      "tradeoffs": [
+        "Higher cost overall — this path runs $1,200-1,800 per person",
+        "Less group hang time in the mornings (no rental kitchen vibes)",
+        "More logistics to coordinate with scheduled activities"
+      ],
+      "who_might_feel_meh": "The 2 cost-conscious folks might feel the pinch. Consider offering optional activities so people can opt out of the $300 balloon ride without FOMO.",
+      "watchouts": [
+        "Make sure everyone is aligned on the splurge dinner — it's not for everyone",
+        "Build buffer time between activities — Napa traffic is real",
+        "Confirm dietary accommodations when booking cooking class and restaurants"
+      ],
+      "confidence_level": "medium"
+    }
+  ],
+  "recommended_path_id": "path_a",
+  "organizer_next_steps": [
+    "Share this summary with the group and see which path resonates",
+    "Book lodging first — it's the hardest thing to change later",
+    "Make dinner reservations 2-3 weeks out for Saturday night",
+    "Create a shared note or group chat for trip planning once path is picked"
+  ],
+  "notes_for_ui": [
+    "Only 5 of 6 participants have responded — consider nudging the last person",
+    "Budget gap is significant — consider showing per-person cost estimates prominently",
+    "Path A is recommended because it serves the majority preference for chill pace"
+  ]
+}

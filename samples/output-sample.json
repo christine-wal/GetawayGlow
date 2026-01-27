@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "trip_name": "Napa Weekend",
+    "destination_mode": "specific",
+    "has_international_signal": false,
+    "participant_count_total": 6,
+    "participant_count_responded": 2
+  },
+  "organizer_context": {
+    "dates": "May 16–19",
+    "theme_or_location_notes": "Napa / Sonoma wine weekend. Prefer not to drive at night.",
+    "budget_framing": "mixed",
+    "transportation_assumptions": {
+      "options_selected": ["rideshare", "rental_car"],
+      "is_uncertain": false
+    },
+    "organizer_notes_extracted": {
+      "hard_constraints": [
+        { "text": "Prefer not to drive at night.", "category": "transportation" },
+        { "text": "No clubs.", "category": "nightlife" }
+      ],
+      "soft_preferences": [
+        { "text": "Would love at least one fancy dinner.", "category": "food" }
+      ],
+      "sensitive_items": []
+    }
+  },
+  "participants_normalized": [
+    {
+      "pid": "p1",
+      "signals": {
+        "spend_attitude": 2,
+        "lodging_price_bucket": 3,
+        "energy_level": 2,
+        "planning_density": 3,
+        "safety_sensitivity": 3,
+        "language_comfort": null,
+        "food_importance": 3,
+        "style_vibe": 2,
+        "accommodation_pref": "hotel"
+      },
+      "enums": {
+        "spend_attitude": "spend_if_value_clear",
+        "lodging_price_bucket": "300_600",
+        "energy_level": "mixed",
+        "planning_density": "structured",
+        "safety_sensitivity": "central_familiar",
+        "language_comfort": null,
+        "food_importance": "high",
+        "style_vibe": "elevated",
+        "accommodation_pref": "hotel"
+      },
+      "activities_ranked": ["food_dining", "culture_sightseeing", "relaxation_wellness"],
+      "activity_other_text": null,
+      "activities_points": [
+        { "category": "food_dining", "points": 3 },
+        { "category": "culture_sightseeing", "points": 2 },
+        { "category": "relaxation_wellness", "points": 1 }
+      ],
+      "dietary": {
+        "flags": ["none"],
+        "allergies_text": null,
+        "other_text": null
+      },
+      "free_text": {
+        "pace_notes": "One big activity per day is perfect.",
+        "accommodation_notes": "Prefer separate beds.",
+        "dealbreakers": "No late-night bar hopping.",
+        "catch_all": null,
+        "accommodation_other_text": null,
+        "style_other_text": null
+      }
+    },
+    {
+      "pid": "p2",
+      "signals": {
+        "spend_attitude": 1,
+        "lodging_price_bucket": 1,
+        "energy_level": 1,
+        "planning_density": 2,
+        "safety_sensitivity": 2,
+        "language_comfort": null,
+        "food_importance": 2,
+        "style_vibe": 1,
+        "accommodation_pref": "rental"
+      },
+      "enums": {
+        "spend_attitude": "keep_costs_low",
+        "lodging_price_bucket": "lt_150",
+        "energy_level": "chill",
+        "planning_density": "loose",
+        "safety_sensitivity": "balanced",
+        "language_comfort": null,
+        "food_importance": "medium",
+        "style_vibe": "casual",
+        "accommodation_pref": "rental"
+      },
+      "activities_ranked": ["relaxation_wellness", "food_dining", "shopping"],
+      "activity_other_text": null,
+      "activities_points": [
+        { "category": "relaxation_wellness", "points": 3 },
+        { "category": "food_dining", "points": 2 },
+        { "category": "shopping", "points": 1 }
+      ],
+      "dietary": {
+        "flags": ["gluten_free", "allergies"],
+        "allergies_text": "Shellfish allergy",
+        "other_text": null
+      },
+      "free_text": {
+        "pace_notes": null,
+        "accommodation_notes": null,
+        "dealbreakers": "I don't want to split every bill evenly if we do different activities.",
+        "catch_all": "I get anxious if everything is scheduled minute-by-minute.",
+        "accommodation_other_text": null,
+        "style_other_text": null
+      }
+    }
+  ],
+  "aggregates": {
+    "counts": {
+      "spend_attitude": [
+        { "option": "keep_costs_low", "count": 1 },
+        { "option": "spend_if_value_clear", "count": 1 },
+        { "option": "comfort_vibe_over_cost", "count": 0 }
+      ],
+      "lodging_price_bucket": [
+        { "option": "lt_150", "count": 1 },
+        { "option": "150_300", "count": 0 },
+        { "option": "300_600", "count": 1 },
+        { "option": "600_plus", "count": 0 },
+        { "option": "prefer_not_say", "count": 0 }
+      ],
+      "energy_level": [
+        { "option": "chill", "count": 1 },
+        { "option": "mixed", "count": 1 },
+        { "option": "packed", "count": 0 }
+      ],
+      "planning_density": [
+        { "option": "minimal", "count": 0 },
+        { "option": "loose", "count": 1 },
+        { "option": "structured", "count": 1 }
+      ],
+      "safety_sensitivity": [
+        { "option": "adventurous", "count": 0 },
+        { "option": "balanced", "count": 1 },
+        { "option": "central_familiar", "count": 1 }
+      ],
+      "language_comfort": [],
+      "accommodation_pref": [
+        { "option": "hotel", "count": 1 },
+        { "option": "rental", "count": 1 },
+        { "option": "boutique", "count": 0 },
+        { "option": "luxury", "count": 0 },
+        { "option": "no_preference", "count": 0 },
+        { "option": "other", "count": 0 }
+      ],
+      "food_importance": [
+        { "option": "low", "count": 0 },
+        { "option": "medium", "count": 1 },
+        { "option": "high", "count": 1 }
+      ],
+      "style_vibe": [
+        { "option": "casual", "count": 1 },
+        { "option": "elevated", "count": 1 },
+        { "option": "glam", "count": 0 },
+        { "option": "mix", "count": 0 },
+        { "option": "other", "count": 0 }
+      ]
+    },
+    "activity_points_total": [
+      { "category": "food_dining", "points_total": 5 },
+      { "category": "relaxation_wellness", "points_total": 4 },
+      { "category": "culture_sightseeing", "points_total": 2 },
+      { "category": "shopping", "points_total": 1 }
+    ],
+    "dietary_summary": {
+      "has_allergies": true,
+      "dietary_flags_counts": [
+        { "flag": "none", "count": 1 },
+        { "flag": "gluten_free", "count": 1 },
+        { "flag": "allergies", "count": 1 }
+      ]
+    }
+  },
+  "constraints_extracted": {
+    "hard_constraints": [
+      { "text": "Shellfish allergy must be accommodated.", "category": "food" },
+      { "text": "Avoid late-night bar hopping.", "category": "nightlife" }
+    ],
+    "soft_preferences": [
+      { "text": "One big activity per day feels ideal.", "category": "pace" },
+      { "text": "Prefer separate beds.", "category": "accommodation" }
+    ],
+    "sensitive_items": [
+      { "text": "Concern about splitting bills evenly when people do different activities.", "category": "money_dynamics" },
+      { "text": "Anxiety about minute-by-minute scheduling.", "category": "planning_style" }
+    ]
+  },
+  "notes_for_next_step": [
+    "Only 2 of 6 participants responded; synthesis should note potential skew.",
+    "Language comfort was not provided; if international destinations are considered later, ask organizer to confirm."
+  ]
+}
